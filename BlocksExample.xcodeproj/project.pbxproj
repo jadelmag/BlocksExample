@@ -18,6 +18,8 @@
 		71990D7417B5225000926E54 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71990D7317B5225000926E54 /* Default-568h@2x.png */; };
 		71990D7717B5225000926E54 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71990D7517B5225000926E54 /* MainStoryboard.storyboard */; };
 		71990D7A17B5225000926E54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71990D7917B5225000926E54 /* ViewController.m */; };
+		71990D8617B5229D00926E54 /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 71990D8517B5229D00926E54 /* Download.m */; };
+		71990D8817B52E1B00926E54 /* no_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71990D8717B52E1B00926E54 /* no_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		71990D7617B5225000926E54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		71990D7817B5225000926E54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		71990D7917B5225000926E54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71990D8417B5229D00926E54 /* Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Download.h; sourceTree = "<group>"; };
+		71990D8517B5229D00926E54 /* Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Download.m; sourceTree = "<group>"; };
+		71990D8717B52E1B00926E54 /* no_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,7 @@
 		71990D6317B5225000926E54 /* BlocksExample */ = {
 			isa = PBXGroup;
 			children = (
+				71990D8317B5229D00926E54 /* Download */,
 				71990D6C17B5225000926E54 /* AppDelegate.h */,
 				71990D6D17B5225000926E54 /* AppDelegate.m */,
 				71990D7517B5225000926E54 /* MainStoryboard.storyboard */,
@@ -96,6 +102,7 @@
 		71990D6417B5225000926E54 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				71990D8717B52E1B00926E54 /* no_image.jpg */,
 				71990D6517B5225000926E54 /* BlocksExample-Info.plist */,
 				71990D6617B5225000926E54 /* InfoPlist.strings */,
 				71990D6917B5225000926E54 /* main.m */,
@@ -105,6 +112,15 @@
 				71990D7317B5225000926E54 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71990D8317B5229D00926E54 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				71990D8417B5229D00926E54 /* Download.h */,
+				71990D8517B5229D00926E54 /* Download.m */,
+			);
+			path = Download;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +179,7 @@
 				71990D7217B5225000926E54 /* Default@2x.png in Resources */,
 				71990D7417B5225000926E54 /* Default-568h@2x.png in Resources */,
 				71990D7717B5225000926E54 /* MainStoryboard.storyboard in Resources */,
+				71990D8817B52E1B00926E54 /* no_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +193,7 @@
 				71990D6A17B5225000926E54 /* main.m in Sources */,
 				71990D6E17B5225000926E54 /* AppDelegate.m in Sources */,
 				71990D7A17B5225000926E54 /* ViewController.m in Sources */,
+				71990D8617B5229D00926E54 /* Download.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
